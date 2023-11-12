@@ -4,23 +4,23 @@ include <springs.scad>
 // Height of cork and support
 height = 12;
 
-// Size of the bottle neck (diameter)
-inner_size = 82;
+// Size of the bottle neck (diameter) / 78 for 350g / 83 for 1kg
+inner_size = 83;
 
-// Size of the cork (diameter)
+// Size of the cork (diameter) / 80 for 350g / 85 for 1kg
 out_size = 85;
 
 // Thickness of bottom
 bottom_thickness = 1.5;
 
-// Support size (diameter)
+// Support size (diameter) / 65 for 350g / 69 for 1kg
 support_size = 69;
 
-// Thread thickness (diameter)
-thr_thickness = 1;
+// Thread thickness (diameter) / 1 is not enough
+thr_thickness = 2;
 
 // Thread total height (consider the center of the thread, not the edges)
-thr_height = 3;
+thr_height = 4;
 
 // Thread position in cork
 thr_pos = bottom_thickness + 3;
